@@ -1,8 +1,8 @@
 # Code Server Install Script
 ___
 
-### Run Script:
-```bash <(wget -qO- https://raw.githubusercontent.com/Val7498/Install-code-server/master/script.sh)```
+### Run Script ON DOCKER:
+```RUN wget -qO- https://raw.githubusercontent.com/Val7498/Install-code-server/master/script.sh ```
 
 ### Notes:
 
