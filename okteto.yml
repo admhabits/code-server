@@ -1,0 +1,7 @@
+name: code-server
+command: bash
+workdir: /okteto
+sync:
+- .:/okteto
+forward:
+- 8022:8022
