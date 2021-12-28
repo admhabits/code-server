@@ -1,0 +1,6 @@
+name: ubuntu-docker
+command: bash
+sync:
+- .:/usr/src/app
+forward:
+- 8181:8181

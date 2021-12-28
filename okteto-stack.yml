@@ -1,0 +1,14 @@
+name: ubuntu-docker
+services:
+  docker:
+    build: docker
+    ports:
+      - "8181:8181"
+    annotations:
+      # dev.okteto.com/auto-ingress: "apim"
+      # nginx.ingress.kubernetes.io/backend-protocol: HTTPS
+endpoints:
+  ubuntu-docker:
+  - path: /
+    service: docker
+    port: 8181
